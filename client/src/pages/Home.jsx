@@ -1,6 +1,7 @@
 import Description from "../components/Description"
 import Header from "../components/Header"
 import Steps from "../components/Steps"
+import Textimonial from "../components/Textimonial"
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
      <Header/>
      <Steps/>
      <Description/>
+     <Textimonial/>
     </div>
   )
 }
