@@ -3,6 +3,7 @@ import BuyCredet from "./pages/BuyCredet"
 import Home from "./pages/Home"
 import Result from "./pages/Result"
 import Navbar from "./components/Navbar"
+// import Footer from "./components/Footer"
 
 
 const  App = ()=> {
@@ -15,7 +16,7 @@ const  App = ()=> {
       <Route path="/"  element={<Home/>}/>
       <Route path="/result"  element={ <Result/>}/>
       <Route path="/buy"  element={ <BuyCredet/>}/>
-    
+    {/* <Footer/> */}
 
 
     </Routes>
