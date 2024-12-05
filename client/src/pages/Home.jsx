@@ -1,5 +1,5 @@
 import Description from "../components/Description"
-import Footer from "../components/Footer"
+
 
 import Generate from "../components/Generate"
 import Header from "../components/Header"
@@ -15,7 +15,7 @@ function Home() {
      <Description/>
      <Textimonial/>
      <Generate/>
- <Footer/>
+ 
     </div>
   )
 }
